@@ -3,13 +3,13 @@ public class TahapanJunior extends Rekening{
     
     TahapanJunior(double jumlahDeposit){
         this.setSaldo(jumlahDeposit);
-        this.setBunga(0.02);   
+   
     }
     @Override
     public String toString(){
        return "Tipe Rekening : "+tipeRekening+"\n"+
                "Nomor Rekening : "+this.getNomorRekening()+"\n"+
                "Saldo : "+this.getSaldo()+"\n"+
-               "Bunga : "+this.getBunga()+"%\n";
+ 
     }
 }
